@@ -66,13 +66,13 @@ ul, li {
   padding-bottom: 18px;
 }
 
+.menu-btn{
+  display: none;
+}
+
 .logo {
   font-size: 1.3rem;
   font-weight: 600;
-}
-
-.logo span {
-  color: var(--accent-color);
 }
 
 .nav-links {
@@ -407,9 +407,29 @@ ul, li {
     max-width: 220px;
   }
 
+  .menu-btn{
+    display: block;
+    font-size: 25px;
+    position: relative;
+  }
+
   .nav-links {
+    display: none;
     gap: 16px;
     font-size: 0.85rem;
+  }
+
+  .nav-links.show{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 20px;
+    top: 60px;
+    background: var(--border-color);
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 8px;
   }
 
   .hero-name {

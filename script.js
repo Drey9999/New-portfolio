@@ -49,3 +49,12 @@ checkReveal();
 
 // Run every time the user scrolls
 window.addEventListener("scroll", checkReveal);
+
+
+
+
+const menuBtn = document.querySelector(".menu-btn");
+const navLinks = document.querySelector(".nav-links");
+menuBtn.addEventListener("click", function(){
+  navLinks.classList.toggle("show");
+})
