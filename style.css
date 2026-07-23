@@ -165,10 +165,9 @@ ul, li {
 
 .hero-image {
   width: 100%;
-  max-width: 70%;
-  object-fit: cover;
-  border-radius: 40%;
-  border: 2px solid var(--accent-color);
+  max-width: 300px;
+  border-radius: 10px;
+  border: 3px solid var(--accent-color);
 }
 
 .hero-greeting {
