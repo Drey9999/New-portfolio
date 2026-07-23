@@ -52,9 +52,9 @@ window.addEventListener("scroll", checkReveal);
 
 
 
-
+//hamburger menu for mobile
 const menuBtn = document.querySelector(".menu-btn");
 const navLinks = document.querySelector(".nav-links");
 menuBtn.addEventListener("click", function(){
   navLinks.classList.toggle("show");
-})
+});
